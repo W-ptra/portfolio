@@ -1,7 +1,7 @@
 import { logger } from "./logger.mjs";
 import express from "express";
 import cors from "cors";
-import path from "path"; // Import the path module
+import path from "path"; 
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 
@@ -9,7 +9,6 @@ const app = express();
 const url = "0.0.0.0";
 const port = 80;
 
-// These two lines are necessary to get the __dirname equivalent in ES modules
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
