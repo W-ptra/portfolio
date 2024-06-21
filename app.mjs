@@ -7,7 +7,7 @@ import { dirname } from 'path';
 
 const app = express();
 const url = "0.0.0.0";
-const port = 8000;
+const port = 80;
 
 // These two lines are necessary to get the __dirname equivalent in ES modules
 const __filename = fileURLToPath(import.meta.url);
