@@ -1,4 +1,4 @@
-# myPortfolio
+# Portfolio
 My Personal portfolio website to showcase the overall information about me
 
 Live Demo: https://wisnuputra.xyz
