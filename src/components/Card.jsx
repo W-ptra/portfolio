@@ -13,7 +13,6 @@ function Card({ portfolio }) {
   },[zoomImage])
 
   const handleZoomChange = (url) => {
-    console.log(url);
     setZoomImage((zoomImage) => !zoomImage);
   };
 
@@ -92,9 +91,9 @@ function Card({ portfolio }) {
           <a
             href={portfolio.winner_link}
             className="
-                  flex items-center justify-center text-center w-[14rem] h-[3.5rem]
-                  cursor-pointer absolute bg-[#FFDC2B] top-[35px] right-[-50px] z-20 px-5
-                  text-[13px] font-[600] rotate-45 hover:font-extrabold 
+                  flex items-center justify-center text-center w-[13rem] h-[3.5rem]
+                  cursor-pointer absolute bg-[#FFDC2B] top-[35px] right-[-28px] z-20 px-5
+                  text-[12px] font-[600] rotate-49 hover:font-extrabold 
               "
           >
             <p>{portfolio.winner}</p>
