@@ -46,7 +46,7 @@ function Header() {
             </div>
         </div>
       </div>
-      <div className="basis-1/3 flex justify-center items-center mt-5">
+      <div className="basis-1/3 flex justify-center items-center mt-5 mb-10">
         <img className="w-[20rem] rounded-4xl" src="/others/portrait.webp" alt="" />
       </div>
     </div>
