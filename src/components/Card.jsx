@@ -26,7 +26,7 @@ function Card({ portfolio }) {
           <img
             src={`${portfolio.thumbnail}.webp`}
             alt={portfolio.thumbnail}
-            className="w-auto max-h-[16.5rem] rounded-2xl"
+            className="w-auto max-h-[16.5rem] rounded-md"
           />
         </div>
         <div className="flex flex-col flex-1/2 text-white">
@@ -105,7 +105,7 @@ function Card({ portfolio }) {
             onClick={()=>handleZoomChange(`${portfolio.thumbnail}.webp`)}
           >
             <div>
-              <img src={`${portfolio.thumbnail}.webp`} alt="" className="max-w-[40rem] max-h-[30rem] rounded-xl" />
+              <img src={`${portfolio.thumbnail}.webp`} alt="" className="max-w-[90vw] md:max-w-[40rem] max-h-[90vh] md:max-h-[30rem] rounded-xl" />
               <h3 className="text-center text-white font-bold mt-5">Click Anywhere to close</h3>
             </div>
 
