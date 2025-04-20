@@ -27,7 +27,12 @@ function Header() {
                     <a href="https://github.com/W-ptra"
                         className="flex items-center gap-x-1 hover:font-bold"
                     >
-                        <img src="/logo/github.webp" alt="github" className="size-6"/>
+                        <img 
+                          src="/logo/github.webp" 
+                          alt="github" 
+                          className="size-6"
+                          loading="lazy"  
+                        />
                         <span>
                             Github
                         </span>
@@ -37,7 +42,12 @@ function Header() {
                     <a href="https://www.linkedin.com/in/wisnu-putra-362b41247/"
                         className="flex items-center gap-x-1 hover:font-bold"
                     >
-                        <img src="/logo/linkedin.webp" alt="linkedin" className="size-6"/>
+                        <img 
+                          src="/logo/linkedin.webp" 
+                          alt="linkedin" 
+                          className="size-6"
+                          loading="lazy"  
+                        />
                         <span>
                             Linkedin
                         </span>
@@ -47,7 +57,12 @@ function Header() {
         </div>
       </div>
       <div className="basis-1/3 flex justify-center items-center mt-5 mb-10">
-        <img className="w-[20rem] rounded-4xl" src="/others/portrait.webp" alt="" />
+        <img 
+          className="w-[20rem] rounded-4xl" 
+          src="/others/portrait.webp" 
+          alt="" 
+          loading="lazy"  
+        />
       </div>
     </div>
   );

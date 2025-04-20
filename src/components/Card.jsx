@@ -27,6 +27,7 @@ function Card({ portfolio }) {
             src={`${portfolio.thumbnail}.webp`}
             alt={portfolio.thumbnail}
             className="w-auto max-h-[16.5rem] rounded-md"
+            loading="lazy"
           />
         </div>
         <div className="flex flex-col flex-1/2 text-white">
@@ -45,6 +46,7 @@ function Card({ portfolio }) {
                 src="/logo/github.webp"
                 alt="github repository"
                 className="size-[1.2rem] "
+                loading="lazy"
               />
               <span>Github</span>
             </a>
@@ -57,6 +59,7 @@ function Card({ portfolio }) {
                   src="/logo/youtube.webp"
                   alt="youtube"
                   className="size-[1.2rem] "
+                  loading="lazy"
                 />
                 <span>Watch</span>
               </a>
@@ -70,6 +73,7 @@ function Card({ portfolio }) {
                   src="/logo/demo.webp"
                   alt="demo"
                   className="size-[1.2rem] "
+                  loading="lazy"
                 />
                 <span>Demo</span>
               </a>
@@ -82,6 +86,7 @@ function Card({ portfolio }) {
                 src={`/logo/${skill}.webp`}
                 alt={skill}
                 className="w-[1.6rem]"
+                loading="lazy"
               />
             ))}
           </div>
@@ -105,7 +110,12 @@ function Card({ portfolio }) {
             onClick={()=>handleZoomChange(`${portfolio.thumbnail}.webp`)}
           >
             <div>
-              <img src={`${portfolio.thumbnail}.webp`} alt="" className="max-w-[90vw] md:max-w-[40rem] max-h-[90vh] md:max-h-[30rem] rounded-xl" />
+              <img 
+                src={`${portfolio.thumbnail}.webp`} 
+                alt="" 
+                className="max-w-[90vw] md:max-w-[40rem] max-h-[90vh] md:max-h-[30rem] rounded-xl" 
+                loading="lazy"  
+              />
               <h3 className="text-center text-white font-bold mt-5">Click Anywhere to close</h3>
             </div>
 
