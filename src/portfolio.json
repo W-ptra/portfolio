@@ -73,6 +73,15 @@
     "skills": ["inertiajs", "php", "laravel", "mysql"]
   },
   {
+    "title": "Pocketwise",
+    "description": "Pocketwise is a financial management web app capstone project on the part of coding camp powered by DBS foundation, with purpose to help you keep track and monitor your transaction with the help of AI analysis. Pocketwise analysis user behaviour thru transaction history inserted, which used to make prediction of expense, ratio dan user classification. Incorporating LLM API such as Deepseek and Qwen for creating insight and OCR capablity.",
+    "thumbnail": "/thumbnail/pocketwise",
+    "github": "https://github.com/W-ptra/PocketWise",
+    "youtube": "",
+    "demo": "",
+    "skills": ["javascript", "react", "node", "postgres", "redis", "nginx", "docker"]
+  },
+  {
     "title": "Microservice_3service",
     "description": "A microservice system consisting 3 services: public-layer-service,user-service and listing-service. Build using Golang version 1.23.2,GORM as ORM,PostgreSQL as databases and Docker for containerization.",
     "thumbnail": "/thumbnail/microservice_3service",
