@@ -7,8 +7,9 @@ function Header() {
           I'm Wisnu!
         </h1>
         <p className="text-md">
-          I am very passionate in software engineering especially backend with
-          5+ project successfully build. Have ability to adapt and love to learn
+          I am very passionate in software engineering especially backend 👨‍💻, with a proven track record of 
+          building over 10+ successful projects, won 2 international hackathon 
+          competitions 🏆 and 6 months work experience. Successfully  Have ability to adapt and love to learn
           new things. Proficient in various programming language, Frameworks,
           Databases, Tools 🛠, and Cloud Platform ⛅.
         </p>
