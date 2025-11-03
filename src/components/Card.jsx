@@ -38,18 +38,20 @@ function Card({ portfolio }) {
             {portfolio.description}
           </div>
           <div className="basis-[17.5%] flex justify-center items-center gap-x-2">
-            <a
-              href={portfolio.github}
-              className="flex items-center gap-1 border border-white rounded-md px-2 py-0.5 hover:font-bold"
-            >
-              <img
-                src="/logo/github.webp"
-                alt="github repository"
-                className="size-[1.2rem] "
-                loading="lazy"
-              />
-              <span>Github</span>
-            </a>
+            { portfolio.github && (
+              <a
+                href={portfolio.github}
+                className="flex items-center gap-1 border border-white rounded-md px-2 py-0.5 hover:font-bold"
+              >
+                <img
+                  src="/logo/github.webp"
+                  alt="github repository"
+                  className="size-[1.2rem] "
+                  loading="lazy"
+                />
+                <span>Github</span>
+              </a>
+            ) }
             {portfolio.youtube && (
               <a
                 href={portfolio.youtube}
