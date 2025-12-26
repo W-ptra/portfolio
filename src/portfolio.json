@@ -7,17 +7,17 @@
     "youtube": "https://www.youtube.com/watch?v=3IcwHSdyxOY",
     "winner":"1st place Hackjakarta Digital Empowerment",
     "winner_link":"https://www.linkedin.com/posts/wisnu-putra-362b41247_hackjakarta-theglobalhackathonseries-activity-7223372229051367424-oJrc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD03ALoBy2_oC97WDk-3slHxmrwjybXo3UA",
-    "skills": ["javascript", "node", "react", "express", "postgres", "docker"]
+    "skills": ["javascript", "node", "react", "express", "postgres", "docker","azure"]
   },
   {
     "title": "Kanca",
-    "description": "Financial literacy app for kids aged 5-12 powered by AI. Generating interactive e-books with text story, image and voice by utilizing SEA-Lion LLM, Google Cloud Platform's (GCP) vertex ai: nano banana and CHIRP text-to-speech.",
+    "description": "Education app for kids aged 5-12 powered by AI. Generating interactive e-books with text story, image and voice by utilizing SEA-Lion LLM, Google Cloud Platform's (GCP) vertex ai: nano banana and CHIRP text-to-speech.",
     "thumbnail": "/thumbnail/kanca",
     "github": "",
     "youtube": "https://youtu.be/ZErL6gMnw5Y?si=2uMd8l5bhbWEnm4D",
-    "winner":"2nd place Student Category BI-OJK Hackathon 2025",
+    "winner":"2nd place Student Category BI-OJK Hackathon 2025 & 2nd place at Education Track Pan-SEA AI Developer Challenge 2025",
     "winner_link":"https://www.linkedin.com/posts/wisnuputraaa_hackathon-ai-financialliteracy-activity-7390695830854426624-40JD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD03ALoBy2_oC97WDk-3slHxmrwjybXo3UA",
-    "skills": ["python", "fast-api", "redis", "cloudflare", "mongodb", "docker"]
+    "skills": ["python", "fast-api", "redis", "cloudflare", "mongodb","nginx", "docker","google"]
   },
   {
     "title": "Lyf Guide",
@@ -34,7 +34,8 @@
       "react",
       "postgres",
       "openai",
-      "docker"
+      "docker",
+      "azure"
     ]
   },
   {
@@ -62,7 +63,8 @@
       "bootstrap",
       "express",
       "docker",
-      "cloudflare"
+      "cloudflare",
+      "azure"
     ]
   },
   {
@@ -79,7 +81,7 @@
     "thumbnail": "/thumbnail/greenrise",
     "github": "https://github.com/reynaldomarchell/greenrise",
     "youtube": "",
-    "demo": "https://greenrise.rey.mba/",
+    "demo": "",
     "skills": ["inertiajs", "php", "laravel", "mysql"]
   },
   {

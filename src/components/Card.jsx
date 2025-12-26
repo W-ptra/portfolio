@@ -1,16 +1,16 @@
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 
 function Card({ portfolio }) {
   const [zoomImage, setZoomImage] = useState(false);
   const body = document.body;
-  useEffect(()=>{
-    if(zoomImage){
+  useEffect(() => {
+    if (zoomImage) {
       body.style.overflow = "hidden"
       return;
     }
 
     body.style.overflow = "auto"
-  },[zoomImage])
+  }, [zoomImage])
 
   const handleZoomChange = (url) => {
     setZoomImage((zoomImage) => !zoomImage);
@@ -38,7 +38,7 @@ function Card({ portfolio }) {
             {portfolio.description}
           </div>
           <div className="basis-[17.5%] flex justify-center items-center gap-x-2">
-            { portfolio.github && (
+            {portfolio.github && (
               <a
                 href={portfolio.github}
                 className="flex items-center gap-1 border border-white rounded-md px-2 py-0.5 hover:font-bold"
@@ -51,7 +51,7 @@ function Card({ portfolio }) {
                 />
                 <span>Github</span>
               </a>
-            ) }
+            )}
             {portfolio.youtube && (
               <a
                 href={portfolio.youtube}
@@ -103,27 +103,35 @@ function Card({ portfolio }) {
                   text-[12px] font-[600] rotate-49 hover:font-extrabold 
               "
           >
-            <p>{portfolio.winner}</p>
+            {/* length 45 */}
+            {portfolio.winner.length > 45 ? (
+              <p className="text-[0.55rem]">
+                {portfolio.winner}
+              </p>
+            ) : (
+              <p>{portfolio.winner}</p>
+            )}
+
           </a>
         )}
       </div>
-        {zoomImage && (
-          <div className="fixed top-0 bottom-0 left-0 right-0 bg-black/90 z-50 flex justify-center items-center"
-            onClick={()=>handleZoomChange(`${portfolio.thumbnail}.webp`)}
-          >
-            <div>
-              <img 
-                src={`${portfolio.thumbnail}.webp`} 
-                alt="" 
-                className="max-w-[90vw] md:max-w-[40rem] max-h-[90vh] md:max-h-[30rem] rounded-xl" 
-                loading="lazy"  
-              />
-              <h3 className="text-center text-white font-bold mt-5">Click Anywhere to close</h3>
-            </div>
-
+      {zoomImage && (
+        <div className="fixed top-0 bottom-0 left-0 right-0 bg-black/90 z-50 flex justify-center items-center"
+          onClick={() => handleZoomChange(`${portfolio.thumbnail}.webp`)}
+        >
+          <div>
+            <img
+              src={`${portfolio.thumbnail}.webp`}
+              alt=""
+              className="max-w-[90vw] md:max-w-[40rem] max-h-[90vh] md:max-h-[30rem] rounded-xl"
+              loading="lazy"
+            />
+            <h3 className="text-center text-white font-bold mt-5">Click Anywhere to close</h3>
           </div>
-        )}
-      
+
+        </div>
+      )}
+
     </>
   );
 }
