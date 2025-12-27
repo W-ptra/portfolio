@@ -73,7 +73,7 @@
     "thumbnail": "/thumbnail/dummyShop",
     "github": "https://github.com/W-ptra/dummyShop",
     "youtube": "",
-    "skills": ["typescript", "react", "java", "springboot", "postgres"]
+    "skills": ["typescript", "react", "java", "springboot", "postgres","azure"]
   },
   {
     "title": "GreenRise",
@@ -82,7 +82,7 @@
     "github": "https://github.com/reynaldomarchell/greenrise",
     "youtube": "",
     "demo": "",
-    "skills": ["inertiajs", "php", "laravel", "mysql"]
+    "skills": ["php","inertiajs", "laravel", "mysql"]
   },
   {
     "title": "Pocketwise",
