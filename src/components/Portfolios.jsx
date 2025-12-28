@@ -38,8 +38,8 @@ function Portfolios() {
                 <button
                     onClick={() => setSelectedSkills([])}
                     className={`px-3 py-1 rounded text-white ${selectedSkills.length === 0
-                        ? "bg-blue-600"
-                        : "bg-gray-600"
+                        ? "bg-black border border-white cursor-pointer"
+                        : "bg-black cursor-pointer"
                         }`}
                 >
                     All
@@ -50,11 +50,17 @@ function Portfolios() {
                         key={skill}
                         onClick={() => toggleSkill(skill)}
                         className={`px-3 py-1 rounded text-white ${selectedSkills.includes(skill)
-                            ? "bg-blue-600 cursor-pointer"
-                            : "bg-gray-600 cursor-pointer"
+                            ? "bg-black border border-white cursor-pointer"
+                            : "bg-black cursor-pointer"
                             }`}
                     >
-                        {skill}
+                        <img
+                            key={skill}
+                            src={`/logo/${skill}.webp`}
+                            alt={skill}
+                            className="w-[1.6rem]"
+                            loading="lazy"
+                        />
                     </button>
                 ))}
             </div>
