@@ -40,7 +40,7 @@ function Header() {
                     </a>
                 </div>
                 <div>
-                    <a href="https://www.linkedin.com/in/wisnu-putra-362b41247/"
+                    <a href="https://www.linkedin.com/in/wisnuputraaa//"
                         className="flex items-center gap-x-1 hover:font-bold"
                     >
                         <img 
