@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wisnup.tech/sitemap.xml
+Sitemap: https://wisnup.site/sitemap.xml
