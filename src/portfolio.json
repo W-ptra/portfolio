@@ -68,14 +68,6 @@
     ]
   },
   {
-    "title": "minago",
-    "description": "A Japanese vocabulary learning app inspired by Anki, designed to help you memorize words through a simple flashcard system with simple interface.",
-    "thumbnail": "/thumbnail/minago",
-    "demo":"https://minago.wisnup.site/",
-    "youtube": "",
-    "skills": ["typescript", "react", "golang", "redis", "postgres","cloudflare"]
-  },
-  {
     "title": "lummytopup",
     "description": "Top-up platform designed for high-performance digital transactions. Built with Go as backend and React as frontend, integration with the Mayar for payment gateway that has seamless user experience.",
     "thumbnail": "/thumbnail/lummytopup",
