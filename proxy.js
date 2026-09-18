@@ -17,6 +17,12 @@ export function proxy(request) {
     return NextResponse.redirect(destination);
   }
 
+  if (pathname === "/en/" || pathname === "/ja/") {
+    const destination = request.nextUrl.clone();
+    destination.pathname = pathname.slice(0, -1);
+    return NextResponse.redirect(destination, 308);
+  }
+
   if (validPaths.has(pathname) || internalOrStaticPath.test(pathname)) return NextResponse.next();
 
   const destination = request.nextUrl.clone();
