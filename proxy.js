@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { selectLocale } from "./src/i18n/locales.js";
 
 const validPaths = new Set(["/en", "/ja"]);
-const internalOrStaticPath = /^(?:\/_next\/|\/_404\/|\/api\/|\/others\/|\/logo\/|\/thumbnail\/|\/document\/)|\.[a-zA-Z0-9]+$/;
+const internalOrStaticPath = /^(?:\/_next\/|\/not-found-handler\/|\/api\/|\/others\/|\/logo\/|\/thumbnail\/|\/document\/)|\.[a-zA-Z0-9]+$/;
 
 export function proxy(request) {
   const { pathname } = request.nextUrl;
@@ -20,7 +20,7 @@ export function proxy(request) {
   if (validPaths.has(pathname) || internalOrStaticPath.test(pathname)) return NextResponse.next();
 
   const destination = request.nextUrl.clone();
-  destination.pathname = pathname === "/ja" || pathname.startsWith("/ja/") ? "/_404/ja" : "/_404/en";
+  destination.pathname = pathname === "/ja" || pathname.startsWith("/ja/") ? "/not-found-handler/ja" : "/not-found-handler/en";
   return NextResponse.rewrite(destination);
 }
 
