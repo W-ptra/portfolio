@@ -4,17 +4,19 @@ function Header({ copy, locale }) {
   return (
     <div className="flex flex-col md:flex-row">
       <div className="flex basis-2/3 flex-col pr-0 text-white md:pr-4">
-        <div className="mb-5 flex items-start justify-between gap-4">
-          <h1 className="text-center text-4xl font-bold md:text-start">
+        <div className="mb-5 flex flex-col gap-3 md:flex-row md:items-start md:justify-between">
+          <h1 className="text-center text-3xl font-bold md:text-start md:text-4xl">
             {copy.greeting} <br />
             {copy.introduction}
           </h1>
-          <LanguageSwitcher locale={locale} label={copy.languageLabel} switchLanguage={copy.switchLanguage} />
+          <div className="self-end md:self-auto">
+            <LanguageSwitcher locale={locale} label={copy.languageLabel} switchLanguage={copy.switchLanguage} />
+          </div>
         </div>
         <p className="text-md">{copy.bio}</p>
-        <div className="mt-3 flex flex-row items-center justify-around md:mt-0 md:flex-col md:items-start">
+        <div className="mt-5 flex flex-col items-center gap-4 md:mt-0 md:items-start">
           <div className="my-5">
-            <a className="rounded-md border border-white px-1 py-2 hover:font-bold md:px-5" href="/document/CV_WISNU_PUTRA.pdf" download>
+            <a className="whitespace-nowrap rounded-md border border-white px-3 py-2 hover:font-bold md:px-5" href="/document/CV_WISNU_PUTRA.pdf" download>
               {copy.downloadCv}
             </a>
           </div>

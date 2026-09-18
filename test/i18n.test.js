@@ -3,6 +3,7 @@ import { readFileSync } from "node:fs";
 import test from "node:test";
 import { selectLocale } from "../src/i18n/locales.js";
 import { getSeo } from "../src/seo.js";
+import { getNotFoundCopy } from "../src/i18n/notFound.js";
 
 const portfolios = JSON.parse(readFileSync(new URL("../src/portfolio.json", import.meta.url), "utf8"));
 
@@ -43,4 +44,11 @@ test("localized metadata declares canonical and alternate language URLs", () => 
   assert.equal(metadata.alternates.canonical, "/ja");
   assert.deepEqual(metadata.alternates.languages, { en: "/en", ja: "/ja", "x-default": "/" });
   assert.match(metadata.title, /Wisnu Putra/);
+});
+
+
+test("localized 404 copy supports English, Japanese, and fallback text", () => {
+  assert.match(getNotFoundCopy("en").heading, /off the map/);
+  assert.match(getNotFoundCopy("ja").heading, /ページ/);
+  assert.deepEqual(getNotFoundCopy("unknown"), getNotFoundCopy("en"));
 });

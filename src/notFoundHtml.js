@@ -1,0 +1,8 @@
+import { getNotFoundCopy } from "./i18n/notFound.js";
+
+export function renderNotFoundHtml(locale) {
+  const copy = getNotFoundCopy(locale);
+  const resolvedLocale = locale === "ja" ? "ja" : "en";
+
+  return `<!doctype html><html lang="${resolvedLocale}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${copy.eyebrow}</title><meta name="robots" content="noindex"><style>html,body{margin:0;min-height:100%;background:#000;color:#fff;font-family:Roboto,Arial,sans-serif}main{box-sizing:border-box;min-height:calc(100vh - 40px);display:flex;align-items:center;justify-content:center;padding:40px 20px;background:center/cover fixed no-repeat url('/others/bground.webp')}section{box-sizing:border-box;width:min(100%,672px);padding:48px 32px;text-align:center;background:rgba(0,0,0,.8);border:1px solid #fff;border-radius:12px;box-shadow:0 4px 8px rgba(0,0,0,.35)}p{margin:0}.eyebrow{margin-bottom:16px;color:#ffdc2b;font-size:14px;font-weight:700;letter-spacing:.2em}.title{font-size:clamp(30px,6vw,48px);font-weight:700;line-height:1.15}.description{max-width:540px;margin:20px auto 0;font-size:18px;line-height:1.6;color:rgba(255,255,255,.9)}a{display:inline-block;margin-top:32px;padding:10px 20px;border:1px solid #fff;border-radius:6px;color:#fff;font-weight:700;text-decoration:none}a:hover{background:#fff;color:#000}footer{height:40px;background:#000}</style></head><body><main><section><p class="eyebrow">${copy.eyebrow}</p><h1 class="title">${copy.heading}</h1><p class="description">${copy.description}</p><a href="/${resolvedLocale}">${copy.action}</a></section></main><footer></footer></body></html>`;
+}
