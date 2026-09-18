@@ -1,2 +1,3 @@
-# portfolio
-My website to show all project I have done, build using react and deployed across multiple cloud provider.
+# Wisnu Putra Portfolio
+
+A bilingual English/Japanese portfolio for Wisnu Putra, built with Next.js and deployed through Netlify. It provides server-rendered routes at `/en` and `/ja` with localized SEO metadata.

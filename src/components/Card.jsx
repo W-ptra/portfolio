@@ -1,137 +1,42 @@
-import { useState, useEffect } from "react";
+"use client";
 
-function Card({ portfolio }) {
+import { useEffect, useState } from "react";
+
+function Card({ portfolio, copy }) {
   const [zoomImage, setZoomImage] = useState(false);
-  const body = document.body;
+
   useEffect(() => {
-    if (zoomImage) {
-      body.style.overflow = "hidden"
-      return;
-    }
+    document.body.style.overflow = zoomImage ? "hidden" : "auto";
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [zoomImage]);
 
-    body.style.overflow = "auto"
-  }, [zoomImage])
-
-  const handleZoomChange = (url) => {
-    setZoomImage((zoomImage) => !zoomImage);
-  };
+  const toggleZoom = () => setZoomImage((isZoomed) => !isZoomed);
 
   return (
     <>
-      <div className="h-[32rem] bg-black/80 rounded-xl flex flex-col p-2.5 border-[0.08rem] border-white shadow-md relative">
-        <div
-          className="flex-1/2 bg-gray-400 min-h-[16.5rem] rounded-2xl items-center flex justify-center mb-1 cursor-zoom-in"
-          onClick={() => handleZoomChange(`${portfolio.thumbnail}.webp`)}
-        >
-          <img
-            src={`${portfolio.thumbnail}.webp`}
-            alt={portfolio.thumbnail}
-            className="w-auto max-h-[16.5rem] rounded-md"
-            loading="lazy"
-          />
-        </div>
-        <div className="flex flex-col flex-1/2 text-white">
-          <div className="basis-[15%] border border-black border-b-white flex flex-col justify-center font-bold">
-            <span>{portfolio.title}</span>
+      <article className="relative flex h-[32rem] flex-col rounded-xl border-[0.08rem] border-white bg-black/80 p-2.5 shadow-md">
+        <button type="button" className="mb-1 flex min-h-[16.5rem] flex-1/2 cursor-zoom-in items-center justify-center rounded-2xl bg-gray-400" onClick={toggleZoom} aria-label={`Zoom ${portfolio.title}`}>
+          <img src={`${portfolio.thumbnail}.webp`} alt={portfolio.title} className="max-h-[16.5rem] w-auto rounded-md" loading="lazy" />
+        </button>
+        <div className="flex flex-1/2 flex-col text-white">
+          <div className="flex basis-[15%] flex-col justify-center border border-black border-b-white font-bold"><span>{portfolio.title}</span></div>
+          <div className="mt-1 basis-[50%] space-y-0 text-[0.8rem]">{portfolio.description}</div>
+          <div className="flex basis-[17.5%] items-center justify-center gap-x-2">
+            {portfolio.github && <a href={portfolio.github} className="flex items-center gap-1 rounded-md border border-white px-2 py-0.5 hover:font-bold"><img src="/logo/github.webp" alt="GitHub repository" className="size-[1.2rem]" loading="lazy" /><span>GitHub</span></a>}
+            {portfolio.youtube && <a href={portfolio.youtube} className="flex items-center gap-1 rounded-md border border-white px-2 py-0.5 hover:font-bold"><img src="/logo/youtube.webp" alt="YouTube" className="size-[1.2rem]" loading="lazy" /><span>{copy.watch}</span></a>}
+            {portfolio.demo && <a href={portfolio.demo} className="flex items-center gap-1 rounded-md border border-white px-2 py-0.5 hover:font-bold"><img src="/logo/demo.webp" alt="Demo" className="size-[1.2rem]" loading="lazy" /><span>{copy.demo}</span></a>}
           </div>
-          <div className="basis-[50%] space-y-0 text-[0.8rem] mt-1">
-            {portfolio.description}
-          </div>
-          <div className="basis-[17.5%] flex justify-center items-center gap-x-2">
-            {portfolio.github && (
-              <a
-                href={portfolio.github}
-                className="flex items-center gap-1 border border-white rounded-md px-2 py-0.5 hover:font-bold"
-              >
-                <img
-                  src="/logo/github.webp"
-                  alt="github repository"
-                  className="size-[1.2rem] "
-                  loading="lazy"
-                />
-                <span>Github</span>
-              </a>
-            )}
-            {portfolio.youtube && (
-              <a
-                href={portfolio.youtube}
-                className="flex items-center gap-1 border border-white rounded-md px-2 py-0.5 hover:font-bold"
-              >
-                <img
-                  src="/logo/youtube.webp"
-                  alt="youtube"
-                  className="size-[1.2rem] "
-                  loading="lazy"
-                />
-                <span>Watch</span>
-              </a>
-            )}
-            {portfolio.demo && (
-              <a
-                href={portfolio.demo}
-                className="flex items-center gap-1 border border-white rounded-md px-2 py-0.5 hover:font-bold"
-              >
-                <img
-                  src="/logo/demo.webp"
-                  alt="demo"
-                  className="size-[1.2rem] "
-                  loading="lazy"
-                />
-                <span>Demo</span>
-              </a>
-            )}
-          </div>
-          <div className="basis-[17.5%] flex gap-x-2 items-center justify-center mt-1.5">
-            {portfolio.skills.map((skill) => (
-              <img
-                key={skill}
-                src={`/logo/${skill}.webp`}
-                alt={skill}
-                className="w-[1.6rem]"
-                loading="lazy"
-              />
-            ))}
+          <div className="mt-1.5 flex basis-[17.5%] items-center justify-center gap-x-2">
+            {portfolio.skills.map((skill) => <img key={skill} src={`/logo/${skill}.webp`} alt={skill} className="w-[1.6rem]" loading="lazy" />)}
           </div>
         </div>
-
-        {portfolio.winner && (
-          <a
-            href={portfolio.winner_link}
-            className="
-                  flex items-center justify-center text-center w-[13rem] h-[3.5rem]
-                  cursor-pointer absolute bg-[#FFDC2B] top-[35px] right-[-28px] z-20 px-5
-                  text-[12px] font-[600] rotate-49 hover:font-extrabold 
-              "
-          >
-            {/* length 45 */}
-            {portfolio.winner.length > 45 ? (
-              <p className="text-[0.55rem]">
-                {portfolio.winner}
-              </p>
-            ) : (
-              <p>{portfolio.winner}</p>
-            )}
-
-          </a>
-        )}
-      </div>
-      {zoomImage && (
-        <div className="fixed top-0 bottom-0 left-0 right-0 bg-black/90 z-50 flex justify-center items-center"
-          onClick={() => handleZoomChange(`${portfolio.thumbnail}.webp`)}
-        >
-          <div>
-            <img
-              src={`${portfolio.thumbnail}.webp`}
-              alt=""
-              className="max-w-[90vw] md:max-w-[40rem] max-h-[90vh] md:max-h-[30rem] rounded-xl"
-              loading="lazy"
-            />
-            <h3 className="text-center text-white font-bold mt-5">Click Anywhere to close</h3>
-          </div>
-
-        </div>
-      )}
-
+        {portfolio.winner && <a href={portfolio.winner_link} className="absolute top-[35px] right-[-28px] z-20 flex h-[3.5rem] w-[13rem] rotate-49 cursor-pointer items-center justify-center bg-[#FFDC2B] px-5 text-center text-[12px] font-[600] hover:font-extrabold">{portfolio.winner.length > 45 ? <span className="text-[0.55rem]">{portfolio.winner}</span> : <span>{portfolio.winner}</span>}</a>}
+      </article>
+      {zoomImage && <button type="button" className="fixed inset-0 z-50 flex items-center justify-center bg-black/90" onClick={toggleZoom} aria-label={copy.closeModal}>
+        <span><img src={`${portfolio.thumbnail}.webp`} alt={portfolio.title} className="max-h-[90vh] max-w-[90vw] rounded-xl md:max-h-[30rem] md:max-w-[40rem]" loading="lazy" /><span className="mt-5 block text-center font-bold text-white">{copy.closeModal}</span></span>
+      </button>}
     </>
   );
 }

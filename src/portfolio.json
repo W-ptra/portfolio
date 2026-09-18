@@ -1,32 +1,76 @@
 [
   {
-    "title": "GrabFood Nutri-Score (Helathy)",
-    "description": "Derived from the issue of health problem caused by food consumption (Heart dieses, Stroke, Diabetes, and many more), this project propose a solution by creating Nutrition Grade (A, B, C, D, E) features on GRAB Food. Harnesses the power of generative AI (Gemini AI) by generating Nutrition Grade based on food/beverage name and ingredients.",
+    "title": {
+      "en": "GrabFood Nutri-Score (Helathy)",
+      "ja": "GrabFood Nutri-Score（Helathy）"
+    },
+    "description": {
+      "en": "Derived from the issue of health problem caused by food consumption (Heart dieses, Stroke, Diabetes, and many more), this project propose a solution by creating Nutrition Grade (A, B, C, D, E) features on GRAB Food. Harnesses the power of generative AI (Gemini AI) by generating Nutrition Grade based on food/beverage name and ingredients.",
+      "ja": "食生活に起因する心疾患、脳卒中、糖尿病などの健康課題を背景に、GRAB Foodに栄養グレード（A〜E）機能を提案するプロジェクトです。Gemini AIを活用し、食品・飲料名と原材料から栄養グレードを生成します。"
+    },
     "thumbnail": "/thumbnail/helathy",
     "github": "https://github.com/syahba/newbiers-hackjakarta",
     "youtube": "https://www.youtube.com/watch?v=3IcwHSdyxOY",
-    "winner":"1st place Hackjakarta Digital Empowerment",
-    "winner_link":"https://www.linkedin.com/posts/wisnu-putra-362b41247_hackjakarta-theglobalhackathonseries-activity-7223372229051367424-oJrc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD03ALoBy2_oC97WDk-3slHxmrwjybXo3UA",
-    "skills": ["javascript", "node", "react", "express", "postgres", "docker","azure"]
+    "winner": {
+      "en": "1st place Hackjakarta Digital Empowerment",
+      "ja": "HackJakarta Digital Empowerment 優勝"
+    },
+    "winner_link": "https://www.linkedin.com/posts/wisnu-putra-362b41247_hackjakarta-theglobalhackathonseries-activity-7223372229051367424-oJrc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD03ALoBy2_oC97WDk-3slHxmrwjybXo3UA",
+    "skills": [
+      "javascript",
+      "node",
+      "react",
+      "express",
+      "postgres",
+      "docker",
+      "azure"
+    ]
   },
   {
-    "title": "Kanca",
-    "description": "Education app for kids aged 5-12 powered by AI. Generating interactive e-books with text story, image and voice by utilizing SEA-Lion LLM, Google Cloud Platform's (GCP) vertex ai: nano banana and CHIRP text-to-speech.",
+    "title": {
+      "en": "Kanca",
+      "ja": "Kanca"
+    },
+    "description": {
+      "en": "Education app for kids aged 5-12 powered by AI. Generating interactive e-books with text story, image and voice by utilizing SEA-Lion LLM, Google Cloud Platform's (GCP) vertex ai: nano banana and CHIRP text-to-speech.",
+      "ja": "SEA-Lion LLMとGoogle Cloud Platform（GCP）のVertex AI（Nano Banana、CHIRP Text-to-Speech）を活用し、テキストストーリー、画像、音声を含むインタラクティブな電子書籍を生成する、5〜12歳向けのAI教育アプリです。"
+    },
     "thumbnail": "/thumbnail/kanca",
     "github": "",
     "youtube": "https://youtu.be/ZErL6gMnw5Y?si=2uMd8l5bhbWEnm4D",
-    "winner":"2nd place Student Category BI-OJK Hackathon 2025 & 2nd place at Education Track Pan-SEA AI Developer Challenge 2025",
-    "winner_link":"https://www.linkedin.com/posts/wisnuputraaa_kanca-activity-7414175173488259072-btxI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD03ALoBy2_oC97WDk-3slHxmrwjybXo3UA",
-    "skills": ["python", "fast-api", "redis", "cloudflare", "mongodb","nginx", "docker","google"]
+    "winner": {
+      "en": "2nd place Student Category BI-OJK Hackathon 2025 & 2nd place at Education Track Pan-SEA AI Developer Challenge 2025",
+      "ja": "BI-OJK Hackathon 2025学生部門 準優勝、およびPan-SEA AI Developer Challenge 2025教育トラック 準優勝"
+    },
+    "winner_link": "https://www.linkedin.com/posts/wisnuputraaa_kanca-activity-7414175173488259072-btxI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD03ALoBy2_oC97WDk-3slHxmrwjybXo3UA",
+    "skills": [
+      "python",
+      "fast-api",
+      "redis",
+      "cloudflare",
+      "mongodb",
+      "nginx",
+      "docker",
+      "google"
+    ]
   },
   {
-    "title": "Lyf Guide",
-    "description": "Itinerary generation app build for Lyf hotel by Ascot ltd in web mobile app. We help you by creating a travel trip to nearby restaurant, museum or tourist attraction in Singapore with ease of use by write your preferences. Build using React as frontend, Golang as backend, PostgreSQL for backend, ChatGPT and Google Maps API for itinerary generation.",
+    "title": {
+      "en": "Lyf Guide",
+      "ja": "Lyf Guide"
+    },
+    "description": {
+      "en": "Itinerary generation app build for Lyf hotel by Ascot ltd in web mobile app. We help you by creating a travel trip to nearby restaurant, museum or tourist attraction in Singapore with ease of use by write your preferences. Build using React as frontend, Golang as backend, PostgreSQL for backend, ChatGPT and Google Maps API for itinerary generation.",
+      "ja": "Ascott Ltd.のLyfホテル向けに開発したモバイルWebアプリです。ユーザーの希望を入力すると、シンガポール近郊のレストラン、美術館、観光地を含む旅行プランを作成できます。フロントエンドにReact、バックエンドにGolangとPostgreSQLを使用し、ChatGPTとGoogle Maps APIで旅程を生成します。"
+    },
     "thumbnail": "/thumbnail/lfyguide",
     "github": "https://github.com/syahba/newbier-hackglobal",
     "youtube": "",
-    "winner":"Hackglobal Finalist",
-    "winner_link":"https://www.linkedin.com/posts/wisnu-putra-362b41247_exciting-milestone-alert-yesterday-activity-7257377983991029760-KoYP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD03ALoBy2_oC97WDk-3slHxmrwjybXo3UA",
+    "winner": {
+      "en": "Hackglobal Finalist",
+      "ja": "Hackglobal ファイナリスト"
+    },
+    "winner_link": "https://www.linkedin.com/posts/wisnu-putra-362b41247_exciting-milestone-alert-yesterday-activity-7257377983991029760-KoYP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD03ALoBy2_oC97WDk-3slHxmrwjybXo3UA",
     "skills": [
       "javascript",
       "golang",
@@ -39,24 +83,45 @@
     ]
   },
   {
-    "title": "BRAINROT LinkedIn Post Generator",
-    "description": "A web application to help you create a humorous and engaging LinkedIn Post using Gen Z slang word. Incorporating Cohere AI, Next.js and +300 Gen Z slang word dictionary source from internet. Providing several options and settings which can accommodate your preference such as words length, formality level and emoji option.",
+    "title": {
+      "en": "BRAINROT LinkedIn Post Generator",
+      "ja": "BRAINROT LinkedIn Post Generator"
+    },
+    "description": {
+      "en": "A web application to help you create a humorous and engaging LinkedIn Post using Gen Z slang word. Incorporating Cohere AI, Next.js and +300 Gen Z slang word dictionary source from internet. Providing several options and settings which can accommodate your preference such as words length, formality level and emoji option.",
+      "ja": "Z世代のスラングを用いて、ユーモラスで魅力的なLinkedIn投稿を作成するWebアプリです。Cohere AI、Next.js、インターネット上の300語以上のZ世代スラング辞書を活用し、文字数、フォーマルさ、絵文字の有無などを設定できます。"
+    },
     "thumbnail": "/thumbnail/brainrot_linkedpost_generator",
     "github": "https://github.com/mzf11125/brainrot-linkedin-post-generator",
     "youtube": "https://www.youtube.com/watch?v=IR1ZoJEWhQE",
-    "winner":"Winner of Brainrot Hackathon WPPOIL track",
-    "winner_link":"https://www.linkedin.com/posts/wisnu-putra-362b41247_brainrot-hackathon-rizz-activity-7276279301468012544-S9Ev?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD03ALoBy2_oC97WDk-3slHxmrwjybXo3UA",
+    "winner": {
+      "en": "Winner of Brainrot Hackathon WPPOIL track",
+      "ja": "Brainrot Hackathon WPPOILトラック 優勝"
+    },
+    "winner_link": "https://www.linkedin.com/posts/wisnu-putra-362b41247_brainrot-hackathon-rizz-activity-7276279301468012544-S9Ev?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD03ALoBy2_oC97WDk-3slHxmrwjybXo3UA",
     "demo": "https://brainrot-linkedin-post-generator.vercel.app/",
-    "skills": ["typescript", "next"]
+    "skills": [
+      "typescript",
+      "next"
+    ]
   },
   {
-    "title": "SafeSight",
-    "description": "Mobile Web Based app created to help visually impaired people to be able detect object and recognize text from far ahead or area that can't be reach using white cane (upper body). Utilizing Microsoft Azure feature such as Computer Vision, Translator, and Speech Service. Everything will conveyed verbally using text to speech.",
+    "title": {
+      "en": "SafeSight",
+      "ja": "SafeSight"
+    },
+    "description": {
+      "en": "Mobile Web Based app created to help visually impaired people to be able detect object and recognize text from far ahead or area that can't be reach using white cane (upper body). Utilizing Microsoft Azure feature such as Computer Vision, Translator, and Speech Service. Everything will conveyed verbally using text to speech.",
+      "ja": "視覚障害者が白杖では届かない上方を含む離れた場所の物体や文字を認識できるよう支援するモバイルWebアプリです。Microsoft AzureのComputer Vision、Translator、Speech Serviceを活用し、結果をテキスト読み上げで伝えます。"
+    },
     "thumbnail": "/thumbnail/safe sight",
     "github": "https://github.com/W-ptra/SafeSight",
     "youtube": "",
-    "winner":"Top 20 AI For Accessibility Hackathon 2024",
-    "winner_link":"https://www.linkedin.com/posts/wisnu-putra-362b41247_im-excited-to-share-my-latest-project-activity-7207080538367533057-1dM1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD03ALoBy2_oC97WDk-3slHxmrwjybXo3UA",
+    "winner": {
+      "en": "Top 20 AI For Accessibility Hackathon 2024",
+      "ja": "AI For Accessibility Hackathon 2024 Top 20"
+    },
+    "winner_link": "https://www.linkedin.com/posts/wisnu-putra-362b41247_im-excited-to-share-my-latest-project-activity-7207080538367533057-1dM1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD03ALoBy2_oC97WDk-3slHxmrwjybXo3UA",
     "skills": [
       "javascript",
       "node",
@@ -68,51 +133,118 @@
     ]
   },
   {
-    "title": "lummytopup",
-    "description": "Top-up platform designed for high-performance digital transactions. Built with Go as backend and React as frontend, integration with the Mayar for payment gateway that has seamless user experience.",
+    "title": {
+      "en": "lummytopup",
+      "ja": "lummytopup"
+    },
+    "description": {
+      "en": "Top-up platform designed for high-performance digital transactions. Built with Go as backend and React as frontend, integration with the Mayar for payment gateway that has seamless user experience.",
+      "ja": "高パフォーマンスなデジタル取引のために設計したチャージプラットフォームです。バックエンドにGo、フロントエンドにReactを採用し、Mayar決済ゲートウェイとの連携によってシームレスなユーザー体験を実現しています。"
+    },
     "thumbnail": "/thumbnail/lummytopup",
     "github": "https://github.com/W-ptra/lumitopup",
     "youtube": "",
-    "skills": ["typescript", "react", "golang", "redis", "postgres","cloudflare"]
+    "skills": [
+      "typescript",
+      "react",
+      "golang",
+      "redis",
+      "postgres",
+      "cloudflare"
+    ]
   },
   {
-    "title": "dummyShop",
-    "description": "Mockup e-commerce website with design draw inspiration from www.pixiv.net, built using react, spring-boot, Microsoft Azure Blob Storage and postgreSQL.",
+    "title": {
+      "en": "dummyShop",
+      "ja": "dummyShop"
+    },
+    "description": {
+      "en": "Mockup e-commerce website with design draw inspiration from www.pixiv.net, built using react, spring-boot, Microsoft Azure Blob Storage and postgreSQL.",
+      "ja": "pixiv.netのデザインから着想を得たモックアップのECサイトです。React、Spring Boot、Microsoft Azure Blob Storage、PostgreSQLを用いて開発しました。"
+    },
     "thumbnail": "/thumbnail/dummyShop",
     "github": "https://github.com/W-ptra/dummyShop",
     "youtube": "",
-    "skills": ["typescript", "react", "java", "springboot", "postgres","azure"]
+    "skills": [
+      "typescript",
+      "react",
+      "java",
+      "springboot",
+      "postgres",
+      "azure"
+    ]
   },
   {
-    "title": "GreenRise",
-    "description": "Donation hub web application where people can donate to charity or social event related to Environment movement. Built using PHP, Laravel 11, MySQL and Inertiajs.",
+    "title": {
+      "en": "GreenRise",
+      "ja": "GreenRise"
+    },
+    "description": {
+      "en": "Donation hub web application where people can donate to charity or social event related to Environment movement. Built using PHP, Laravel 11, MySQL and Inertiajs.",
+      "ja": "環境活動に関する慈善活動や社会イベントへ寄付できるWebアプリケーションです。PHP、Laravel 11、MySQL、Inertia.jsで開発しました。"
+    },
     "thumbnail": "/thumbnail/greenrise",
     "github": "https://github.com/reynaldomarchell/greenrise",
     "youtube": "",
     "demo": "",
-    "skills": ["php","inertiajs", "laravel", "mysql"]
+    "skills": [
+      "php",
+      "inertiajs",
+      "laravel",
+      "mysql"
+    ]
   },
   {
-    "title": "Pocketwise",
-    "description": "Pocketwise is a financial management web app capstone project on the part of coding camp powered by DBS foundation, with purpose to help you keep track and monitor your transaction with the help of AI analysis. Pocketwise analysis user behaviour thru transaction history inserted, which used to make prediction of expense, ratio dan user classification. Incorporating LLM API such as Deepseek and Qwen for creating insight and OCR capablity.",
+    "title": {
+      "en": "Pocketwise",
+      "ja": "Pocketwise"
+    },
+    "description": {
+      "en": "Pocketwise is a financial management web app capstone project on the part of coding camp powered by DBS foundation, with purpose to help you keep track and monitor your transaction with the help of AI analysis. Pocketwise analysis user behaviour thru transaction history inserted, which used to make prediction of expense, ratio dan user classification. Incorporating LLM API such as Deepseek and Qwen for creating insight and OCR capablity.",
+      "ja": "DBS Foundationによるコーディングキャンプのキャップストーンとして開発した家計管理Webアプリです。取引履歴をもとにAIがユーザー行動を分析し、支出予測、比率、ユーザー分類を支援します。インサイト生成とOCR機能にはDeepSeekやQwenなどのLLM APIを活用しています。"
+    },
     "thumbnail": "/thumbnail/pocketwise",
     "github": "https://github.com/W-ptra/PocketWise",
     "youtube": "",
     "demo": "",
-    "skills": ["javascript", "react", "node", "postgres", "redis", "nginx", "docker"]
+    "skills": [
+      "javascript",
+      "react",
+      "node",
+      "postgres",
+      "redis",
+      "nginx",
+      "docker"
+    ]
   },
   {
-    "title": "Microservice_3service",
-    "description": "A microservice system consisting 3 services: public-layer-service,user-service and listing-service. Build using Golang version 1.23.2,GORM as ORM,PostgreSQL as databases and Docker for containerization.",
+    "title": {
+      "en": "Microservice_3service",
+      "ja": "Microservice_3service"
+    },
+    "description": {
+      "en": "A microservice system consisting 3 services: public-layer-service,user-service and listing-service. Build using Golang version 1.23.2,GORM as ORM,PostgreSQL as databases and Docker for containerization.",
+      "ja": "public-layer-service、user-service、listing-serviceで構成されるマイクロサービスシステムです。Golang 1.23.2、ORMとしてGORM、データベースにPostgreSQL、コンテナ化にDockerを使用しています。"
+    },
     "thumbnail": "/thumbnail/microservice_3service",
     "github": "https://github.com/W-ptra/Microservice_3service",
     "youtube": "",
     "demo": "",
-    "skills": ["golang", "postgres", "docker"]
+    "skills": [
+      "golang",
+      "postgres",
+      "docker"
+    ]
   },
   {
-    "title": "Second Chance",
-    "description": "Web based application for ex-convict ('mantan narapinada') to prove they have changes thru several activity done at the app including doing course, volunteering or community service, and write a journal. Each activity will give point, which later can be used to apply for job offer ex: waiter or cooks at restaurant.",
+    "title": {
+      "en": "Second Chance",
+      "ja": "Second Chance"
+    },
+    "description": {
+      "en": "Web based application for ex-convict ('mantan narapinada') to prove they have changes thru several activity done at the app including doing course, volunteering or community service, and write a journal. Each activity will give point, which later can be used to apply for job offer ex: waiter or cooks at restaurant.",
+      "ja": "元受刑者が、コース受講、ボランティア、地域奉仕、ジャーナル作成などを通じて更生への取り組みを示せるWebアプリです。各活動でポイントを獲得し、レストランのウェイターや調理スタッフなどの求人へ応募できます。"
+    },
     "thumbnail": "/thumbnail/second chance",
     "github": "https://github.com/jamesalv/GH5",
     "youtube": "https://www.youtube.com/watch?v=81hl69dCEek",
@@ -127,24 +259,52 @@
     ]
   },
   {
-    "title": "Two Factor Authentication",
-    "description": "Login and Register system integrated with two factor authentication (Password and Email), where user is required to input the 4 digit OTP code sent by system to their email which will be expired in 4 minutes. This project using Golang net/http standard library of version 1.22, PostgreSQL, REDIS, and Resend for email notification.",
+    "title": {
+      "en": "Two Factor Authentication",
+      "ja": "二要素認証"
+    },
+    "description": {
+      "en": "Login and Register system integrated with two factor authentication (Password and Email), where user is required to input the 4 digit OTP code sent by system to their email which will be expired in 4 minutes. This project using Golang net/http standard library of version 1.22, PostgreSQL, REDIS, and Resend for email notification.",
+      "ja": "パスワードとメールによる二要素認証を組み込んだログイン・登録システムです。ユーザーはメールで送信され、4分で失効する4桁のOTPコードを入力します。Golang 1.22のnet/http標準ライブラリ、PostgreSQL、Redis、Resendを使用しています。"
+    },
     "thumbnail": "/thumbnail/two_fa_go",
     "github": "https://github.com/W-ptra/Two_Factor_Authentication",
     "youtube": "",
-    "skills": ["golang", "redis", "postgres", "docker"]
+    "skills": [
+      "golang",
+      "redis",
+      "postgres",
+      "docker"
+    ]
   },
   {
-    "title": "Spring Boot CRUD API",
-    "description": "A simple RESTful API built with Spring Boot application that performs Create, Read, Update, and Delete (CRUD) operation on a 'Product' table in MySQL database using JDBC Driver.",
+    "title": {
+      "en": "Spring Boot CRUD API",
+      "ja": "Spring Boot CRUD API"
+    },
+    "description": {
+      "en": "A simple RESTful API built with Spring Boot application that performs Create, Read, Update, and Delete (CRUD) operation on a 'Product' table in MySQL database using JDBC Driver.",
+      "ja": "JDBCドライバーを使用し、MySQLのProductテーブルに対して作成、読み取り、更新、削除（CRUD）を行う、Spring Bootで構築したシンプルなRESTful APIです。"
+    },
     "thumbnail": "/thumbnail/Spring boot crud api",
     "github": "https://github.com/W-ptra/Spring_Boot_CRUD_API",
     "youtube": "",
-    "skills": ["java", "springboot", "mysql", "docker"]
+    "skills": [
+      "java",
+      "springboot",
+      "mysql",
+      "docker"
+    ]
   },
   {
-    "title": "SEAStudy",
-    "description": "SEA Study, an all-in-one online learning platform designed to empower learners and educators alike. Whether you're diving into academics, mastering programming, exploring culinary arts, or discovering new passions, SEA Study is here to guide you on your learning journey. Build using Nextjs as frontend, expressjs as backend, and postgresql as database.",
+    "title": {
+      "en": "SEAStudy",
+      "ja": "SEAStudy"
+    },
+    "description": {
+      "en": "SEA Study, an all-in-one online learning platform designed to empower learners and educators alike. Whether you're diving into academics, mastering programming, exploring culinary arts, or discovering new passions, SEA Study is here to guide you on your learning journey. Build using Nextjs as frontend, expressjs as backend, and postgresql as database.",
+      "ja": "学習者と教育者を支援するオールインワンのオンライン学習プラットフォームです。学術、プログラミング、料理など幅広い学習を支援します。フロントエンドにNext.js、バックエンドにExpress.js、データベースにPostgreSQLを使用しています。"
+    },
     "thumbnail": "/thumbnail/sea study",
     "github": "https://github.com/W-ptra/SeaStudy",
     "youtube": "",
@@ -159,24 +319,51 @@
     ]
   },
   {
-    "title": "GymMe",
-    "description": "GymMe is a web-based online health and supplement selling application. Created using C# and ASP.NET framework with SQL Server database. Implementing Domain-Driven Design (DDD) approach, this project consisting of 7 layers: Views, Controller, Web Service, Handler, Factory, Repository, and Model.",
+    "title": {
+      "en": "GymMe",
+      "ja": "GymMe"
+    },
+    "description": {
+      "en": "GymMe is a web-based online health and supplement selling application. Created using C# and ASP.NET framework with SQL Server database. Implementing Domain-Driven Design (DDD) approach, this project consisting of 7 layers: Views, Controller, Web Service, Handler, Factory, Repository, and Model.",
+      "ja": "C#、ASP.NET、SQL Serverで開発したオンライン健康・サプリメント販売Webアプリです。ドメイン駆動設計（DDD）を取り入れ、Views、Controller、Web Service、Handler、Factory、Repository、Modelの7層で構成しています。"
+    },
     "thumbnail": "/thumbnail/GymMe",
     "github": "https://github.com/W-ptra/GymMe",
     "youtube": "",
-    "skills": ["csharp", "asp_net", "sqlserver"]
+    "skills": [
+      "csharp",
+      "asp_net",
+      "sqlserver"
+    ]
   },
   {
-    "title": "Hate Speech Censor Discord Bot Using Text Classification BERT model",
-    "description": "Discord bot integrated with transformer base model BERT to detect and censor hate speech, Trained using 726.120 text sample and have peak accuracy of 90,24% with 90,21% precision.",
+    "title": {
+      "en": "Hate Speech Censor Discord Bot Using Text Classification BERT model",
+      "ja": "BERTテキスト分類モデルによるDiscordヘイトスピーチ検閲ボット"
+    },
+    "description": {
+      "en": "Discord bot integrated with transformer base model BERT to detect and censor hate speech, Trained using 726.120 text sample and have peak accuracy of 90,24% with 90,21% precision.",
+      "ja": "TransformerベースのBERTモデルを統合し、ヘイトスピーチを検出・検閲するDiscordボットです。726,120件のテキストサンプルで学習し、最高精度90.24%、適合率90.21%を達成しました。"
+    },
     "thumbnail": "/thumbnail/discord bot",
     "github": "https://github.com/W-ptra/hate_speech_censor_discord_bot_using_text_classification_BERT_model",
     "youtube": "",
-    "skills": ["python", "jupyter", "torch", "discord"]
+    "skills": [
+      "python",
+      "jupyter",
+      "torch",
+      "discord"
+    ]
   },
   {
-    "title": "SEASalon",
-    "description": "SEASalon is web based application for beauty salon build using Bootstrap, javascript, Node.js, Express.js, MariaDB/MYSQL.",
+    "title": {
+      "en": "SEASalon",
+      "ja": "SEASalon"
+    },
+    "description": {
+      "en": "SEASalon is web based application for beauty salon build using Bootstrap, javascript, Node.js, Express.js, MariaDB/MYSQL.",
+      "ja": "Bootstrap、JavaScript、Node.js、Express.js、MariaDB/MySQLで開発した美容サロン向けWebアプリケーションです。"
+    },
     "thumbnail": "/thumbnail/sea salon",
     "github": "https://github.com/W-ptra/SEA_Salon",
     "youtube": "",
@@ -192,8 +379,14 @@
     ]
   },
   {
-    "title": "Wattwise",
-    "description": "wattwise is a web-based electricity calculator that can help you calculate the amount of electricity used in your home, sum the bills by the time (day,week, and month), and predict how long it will take for your electricity tokens to run out (in day), which will be visualized using graph.",
+    "title": {
+      "en": "Wattwise",
+      "ja": "Wattwise"
+    },
+    "description": {
+      "en": "wattwise is a web-based electricity calculator that can help you calculate the amount of electricity used in your home, sum the bills by the time (day,week, and month), and predict how long it will take for your electricity tokens to run out (in day), which will be visualized using graph.",
+      "ja": "家庭内の電力使用量を計算し、日・週・月ごとの電気料金を集計、電力トークンがなくなるまでの日数を予測できるWebアプリです。結果はグラフで可視化されます。"
+    },
     "thumbnail": "/thumbnail/wattwise",
     "github": "https://github.com/W-ptra/WattWise",
     "youtube": "",
@@ -208,19 +401,43 @@
     ]
   },
   {
-    "title": "URL Shortener",
-    "description": "A simple URL shortener by hashing the original url using md5 then took the first 5 letter and store it on mysql",
+    "title": {
+      "en": "URL Shortener",
+      "ja": "URL短縮サービス"
+    },
+    "description": {
+      "en": "A simple URL shortener by hashing the original url using md5 then took the first 5 letter and store it on mysql",
+      "ja": "元のURLをMD5でハッシュ化し、先頭5文字をMySQLに保存するシンプルなURL短縮サービスです。"
+    },
     "thumbnail": "/thumbnail/url shortener",
     "github": "https://github.com/W-ptra/url_shortener",
     "youtube": "",
-    "skills": ["javascript", "node", "bootstrap", "express", "mysql"]
+    "skills": [
+      "javascript",
+      "node",
+      "bootstrap",
+      "express",
+      "mysql"
+    ]
   },
   {
-    "title": "Apple Ocalypse Farm",
-    "description": "Simple game about apple tree farming, where it require min of 1 ZETA coin to play, also you can send coin to other player",
+    "title": {
+      "en": "Apple Ocalypse Farm",
+      "ja": "Apple Ocalypse Farm"
+    },
+    "description": {
+      "en": "Simple game about apple tree farming, where it require min of 1 ZETA coin to play, also you can send coin to other player",
+      "ja": "最低1 ZETAコインで遊べるリンゴ農園ゲームです。ほかのプレイヤーへコインを送ることもできます。"
+    },
     "thumbnail": "/thumbnail/appleocalpyse",
     "github": "https://github.com/W-ptra/Apple_ocalypse_Farm",
     "youtube": "",
-    "skills": ["javascript", "node", "bootstrap", "express", "zetachain"]
+    "skills": [
+      "javascript",
+      "node",
+      "bootstrap",
+      "express",
+      "zetachain"
+    ]
   }
 ]
