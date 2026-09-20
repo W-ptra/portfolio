@@ -2,11 +2,11 @@
   {
     "title": {
       "en": "GrabFood Nutri-Score (Helathy)",
-      "ja": "GrabFood Nutri-Score（Helathy）"
+      "ja": "GrabFood Nutri-Score (Helathy)"
     },
     "description": {
       "en": "Derived from the issue of health problem caused by food consumption (Heart dieses, Stroke, Diabetes, and many more), this project propose a solution by creating Nutrition Grade (A, B, C, D, E) features on GRAB Food. Harnesses the power of generative AI (Gemini AI) by generating Nutrition Grade based on food/beverage name and ingredients.",
-      "ja": "食生活に起因する心疾患、脳卒中、糖尿病などの健康課題を背景に、GRAB Foodに栄養グレード（A〜E）機能を提案するプロジェクトです。Gemini AIを活用し、食品・飲料名と原材料から栄養グレードを生成します。"
+      "ja": "食生活に起因する心疾患、脳卒中、糖尿病などの健康課題を背景に、GrabFoodに栄養グレード（A〜E）機能を提案するプロジェクトです。Gemini AIを活用し、食品・飲料名と原材料から栄養グレードを生成します。"
     },
     "thumbnail": "/thumbnail/helathy",
     "github": "https://github.com/syahba/newbiers-hackjakarta",
@@ -39,8 +39,8 @@
     "github": "",
     "youtube": "https://youtu.be/ZErL6gMnw5Y?si=2uMd8l5bhbWEnm4D",
     "winner": {
-      "en": "2nd place Student Category BI-OJK Hackathon 2025 & 2nd place at Education Track Pan-SEA AI Developer Challenge 2025",
-      "ja": "BI-OJK Hackathon 2025学生部門 準優勝、およびPan-SEA AI Developer Challenge 2025教育トラック 準優勝"
+      "en": "2nd place, Bank Indonesia & OJK Joint IT Competition (Student Category) & 2nd place, Pan-SEA AI Developer Challenge (Education Track)",
+      "ja": "インドネシア銀行・インドネシア金融庁共催IT大会（学生部門）準優勝、パンシーAI開発者チャレンジ（教育部門）準優勝"
     },
     "winner_link": "https://www.linkedin.com/posts/wisnuputraaa_kanca-activity-7414175173488259072-btxI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD03ALoBy2_oC97WDk-3slHxmrwjybXo3UA",
     "skills": [
@@ -51,6 +51,7 @@
       "mongodb",
       "nginx",
       "docker",
+      "kubernetes",
       "google"
     ]
   },
@@ -60,20 +61,21 @@
       "ja": "Lyf Guide"
     },
     "description": {
-      "en": "Itinerary generation app build for Lyf hotel by Ascot ltd in web mobile app. We help you by creating a travel trip to nearby restaurant, museum or tourist attraction in Singapore with ease of use by write your preferences. Build using React as frontend, Golang as backend, PostgreSQL for backend, ChatGPT and Google Maps API for itinerary generation.",
-      "ja": "Ascott Ltd.のLyfホテル向けに開発したモバイルWebアプリです。ユーザーの希望を入力すると、シンガポール近郊のレストラン、美術館、観光地を含む旅行プランを作成できます。フロントエンドにReact、バックエンドにGolangとPostgreSQLを使用し、ChatGPTとGoogle Maps APIで旅程を生成します。"
+      "en": "Itinerary generation app built for Lyf hotel by Ascott Ltd. as a web mobile app. It helps you create a travel itinerary to nearby restaurants, museums, or tourist attractions in Singapore based on your preferences, powered by the OpenAI API. Built using React as frontend, Golang and Fiber as backend, and PostgreSQL as database.",
+      "ja": "Ascott Ltd.のLyfホテル向けに開発したモバイルWebアプリです。ユーザーの希望を入力すると、シンガポール近郊のレストラン、美術館、観光地を含む旅行プランを、OpenAI APIを活用して作成できます。フロントエンドにReact、バックエンドにGolangとFiber、データベースにPostgreSQLを使用しています。"
     },
     "thumbnail": "/thumbnail/lfyguide",
     "github": "https://github.com/syahba/newbier-hackglobal",
     "youtube": "",
     "winner": {
-      "en": "Hackglobal Finalist",
-      "ja": "Hackglobal ファイナリスト"
+      "en": "HackGlobal Top 30 Global Finalist (invited to 3-day final pitch in Singapore)",
+      "ja": "HackGlobal 世界上位30名のファイナリストに選出（シンガポールでの3日間最終ピッチに招待）"
     },
     "winner_link": "https://www.linkedin.com/posts/wisnu-putra-362b41247_exciting-milestone-alert-yesterday-activity-7257377983991029760-KoYP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD03ALoBy2_oC97WDk-3slHxmrwjybXo3UA",
     "skills": [
       "javascript",
       "golang",
+      "fiber",
       "node",
       "react",
       "postgres",
@@ -95,8 +97,8 @@
     "github": "https://github.com/mzf11125/brainrot-linkedin-post-generator",
     "youtube": "https://www.youtube.com/watch?v=IR1ZoJEWhQE",
     "winner": {
-      "en": "Winner of Brainrot Hackathon WPPOIL track",
-      "ja": "Brainrot Hackathon WPPOILトラック 優勝"
+      "en": "Winner of Brainrot Jia.seed Hackathon WPPOIL track",
+      "ja": "Brainrot Jia.seedハッカソン WPPOILトラック 優勝"
     },
     "winner_link": "https://www.linkedin.com/posts/wisnu-putra-362b41247_brainrot-hackathon-rizz-activity-7276279301468012544-S9Ev?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD03ALoBy2_oC97WDk-3slHxmrwjybXo3UA",
     "demo": "https://brainrot-linkedin-post-generator.vercel.app/",
@@ -118,8 +120,8 @@
     "github": "https://github.com/W-ptra/SafeSight",
     "youtube": "",
     "winner": {
-      "en": "Top 20 AI For Accessibility Hackathon 2024",
-      "ja": "AI For Accessibility Hackathon 2024 Top 20"
+      "en": "Top 30, \"AI For Accessibility\" IT Competition 2024 (Binus University x Microsoft)",
+      "ja": "「アクセシビリティのためのAI」IT大会2024（ビナス大学×マイクロソフト共催）Top30選出"
     },
     "winner_link": "https://www.linkedin.com/posts/wisnu-putra-362b41247_im-excited-to-share-my-latest-project-activity-7207080538367533057-1dM1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD03ALoBy2_oC97WDk-3slHxmrwjybXo3UA",
     "skills": [
@@ -134,8 +136,8 @@
   },
   {
     "title": {
-      "en": "lummytopup",
-      "ja": "lummytopup"
+      "en": "Lummytopup",
+      "ja": "Lummytopup"
     },
     "description": {
       "en": "Top-up platform designed for high-performance digital transactions. Built with Go as backend and React as frontend, integration with the Mayar for payment gateway that has seamless user experience.",
@@ -146,8 +148,10 @@
     "youtube": "",
     "skills": [
       "typescript",
+      "node",
       "react",
       "golang",
+      "fiber",
       "redis",
       "postgres",
       "cloudflare"
@@ -159,15 +163,16 @@
       "ja": "dummyShop"
     },
     "description": {
-      "en": "Mockup e-commerce website with design draw inspiration from www.pixiv.net, built using react, spring-boot, Microsoft Azure Blob Storage and postgreSQL.",
-      "ja": "pixiv.netのデザインから着想を得たモックアップのECサイトです。React、Spring Boot、Microsoft Azure Blob Storage、PostgreSQLを用いて開発しました。"
+      "en": "Mockup e-commerce website with design inspiration from www.pixiv.net, built using HTML, Tailwind CSS, TypeScript, Java, Spring Boot, Microsoft Azure Blob Storage and PostgreSQL.",
+      "ja": "pixiv.netのデザインから着想を得たモックアップのECサイトです。HTML、Tailwind CSS、TypeScript、Java、Spring Boot、Microsoft Azure Blob Storage、PostgreSQLを用いて開発しました。"
     },
     "thumbnail": "/thumbnail/dummyShop",
     "github": "https://github.com/W-ptra/dummyShop",
     "youtube": "",
     "skills": [
+      "html",
+      "tailwind",
       "typescript",
-      "react",
       "java",
       "springboot",
       "postgres",
@@ -214,7 +219,8 @@
       "postgres",
       "redis",
       "nginx",
-      "docker"
+      "docker",
+      "azure"
     ]
   },
   {
@@ -403,7 +409,7 @@
   {
     "title": {
       "en": "URL Shortener",
-      "ja": "URL短縮サービス"
+      "ja": "URL Shortener"
     },
     "description": {
       "en": "A simple URL shortener by hashing the original url using md5 then took the first 5 letter and store it on mysql",
