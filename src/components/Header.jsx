@@ -15,12 +15,7 @@ function Header({ copy, locale }) {
         </div>
         <p className="text-md">{copy.bio}</p>
         <div className="mt-5 flex flex-col items-center gap-4 md:mt-0 md:items-start">
-          <div className="my-5">
-            <a className="whitespace-nowrap rounded-md border border-white px-3 py-2 hover:font-bold md:px-5" href="/document/CV_WISNU_PUTRA.pdf" download>
-              {copy.downloadCv}
-            </a>
-          </div>
-          <div className="flex gap-x-3">
+          <div className="flex gap-x-8 my-5">
             <a href="https://github.com/W-ptra" className="flex items-center gap-x-1 hover:font-bold">
               <img src="/logo/github.webp" alt="GitHub" className="size-6" loading="lazy" />
               <span>{copy.github}</span>
